@@ -22,7 +22,7 @@ data['age'] = data['age'].astype('category').cat.codes
 
 # Splitting Data (X) and labels (y)
 X = data.drop('expensive', axis=1)
-y = data['expensive']
+y = data['expensivee']
 
 # Split the data into training and testing sets. Specify as a standard 70% of the data to be used for training
 # Here we are splitting the dataset into training and testing sets with a 70-30 ratio.
